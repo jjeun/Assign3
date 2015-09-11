@@ -1,6 +1,16 @@
+<!--
+    Author: Jesse Jeun, Darpan, Max
+    Date: Sept 11, 2015
+    Description: String values that will be inserted in xml based on Id's
+-->
 <resources>
-    <string name="app_name">Assign3</string>
-
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Assignment 3: Jesse Main Page</string>
+    <string name="headerText">Welcome to Jesse, Darpan, and Max Assignment 3</string>
     <string name="action_settings">Settings</string>
+    <string name="darpanButton">Darpan\'s Activity Button</string>
+    <string name="maxButton">Max\'s Activity Button</string>
+    <string name="darpanText">Welcome to Darpan\'s Activity Page</string>
+    <string name="maxText">Welcome to Max\'s Activity Page</string>
+    <string name="title_activity_darpan">Darpan Page</string>
+    <string name="title_activity_max">Max Page</string>
 </resources>
