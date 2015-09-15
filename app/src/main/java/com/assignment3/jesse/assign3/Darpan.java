@@ -1,5 +1,7 @@
 package com.assignment3.jesse.assign3;
 
+import android.media.Image;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,8 +13,13 @@ public class Darpan extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_darpan);
+
+        MediaPlayer mediaplayer = MediaPlayer.create(getApplicationContext(), R.raw.howdoing);
+        // Created mediaplayer instance to playback a short soundclip
+        mediaplayer.start();
+        //Starts the mediaplayer;
     }
-    // comment
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
